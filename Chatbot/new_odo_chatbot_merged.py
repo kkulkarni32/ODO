@@ -52,15 +52,15 @@ parser = argparse.ArgumentParser(description="Parse command line arguments.",
                            formatter_class=argparse.RawTextHelpFormatter)
 
 # parse the command line: All options are optional. Usage $ python3 odo_chatbot.py --maxip 2.1.0.4 --maxport 7400
-parser.add_argument("--chatip", type=str, default="2.1.0.10", help="The ip of chatbot.")
+parser.add_argument("--chatip", type=str, default="192.168.0.48", help="The ip of chatbot.")
 parser.add_argument("--chatport", type=int, default=7403, help="The port on which chat server is listening to osc connection.")
-parser.add_argument("--maxip", type=str, default="2.1.0.2", help="The ip on which max server is listening.")
+parser.add_argument("--maxip", type=str, default="192.168.0.48", help="The ip on which max server is listening.")
 parser.add_argument("--maxport", type=int, default=7400, help="The port on which max server is listening.")
 parser.add_argument("--camip1", type=str, default="2.1.0.11", help="The ip on which camera 1 server is listening.")
 parser.add_argument("--camport1", type=int, default=7401, help="The port on which camera 1 server is listening.")
 parser.add_argument("--camip2", type=str, default="2.1.0.12", help="The ip on which camera 2 server is listening.")
 parser.add_argument("--camport2", type=int, default=7402, help="The port on which camera 2 server is listening.")
-parser.add_argument("--test", type=bool, default=False, help="Enable this flag only for testing.")
+parser.add_argument("--test", type=bool, default=True, help="Enable this flag only for testing.")
 parser.add_argument("--jump", type=int, default=0, help="Use this falg to make jumps in the story.")
 
 opt, argv = parser.parse_known_args()
