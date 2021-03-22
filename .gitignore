@@ -1,0 +1,8 @@
+# Ignoring models and weights of chabot and emotion recognition
+Chatbot/models/dialogue_system/3/variables/variables.data-00000-of-00001
+Camera_1/models/face_recognition/trained_models/weights.28-3.73.hdf5
+
+# ignoring backup files
+Camera_1/backups/*
+Chatbot/models/dialogue_system/backup/*
+Crowd/backups/*
