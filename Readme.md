@@ -58,3 +58,17 @@ Please use this link [model](https://drive.google.com/file/d/1quNv1ZQC4ayqMbCPxg
 
 What to expect:\
 If you are using a laptop, then your webcam will start and it will try to detect a face. Only after face is detected will the chatbot start. If you are using Jetson, then this will activate the USB camera connected to jetson and wait till it detects the face.
+
+#### Chat tag list:
+Communication between chatbot and Max system happens with using several tags, each performing an action. Tags from Max to chatbot needs a message along with it to perfom the task. Below is the table. 
+
+| Tag 			|	Function 			|
+|---------------|-----------------------|
+|/start "start"	|	Start the chatbot 	|
+|/chat "message"	|	Conversation from user to chatbot|
+|/names "names"| Retrieves the names of the players|
+|/stop "true/false"| Pauses/Resumes chatbot|
+|/rgb | Tag with which chatbot sends rgb values of chosen color back to MAX|
+|/haiku "haiku"| Generates a random haiku poem to the user|
+|/emotions | Tag with which chatbot sends user's emotion to Max|  
+|/jump | Perform jumps in the story - **Need to fix bugs**|
