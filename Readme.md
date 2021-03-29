@@ -53,6 +53,8 @@ $ python3 odo.py
 #### Chatbot
 Please use this link [model](https://drive.google.com/file/d/1VNNr1U5kWRGYTYoy5cTxXAF1v6eOqMTp/view?usp=sharing) to download the necessary model required to run the chatbot. Place this in the following directory Chatbot/models/dialogue_system/3/variables/
 
+Please use this link [model](https://drive.google.com/file/d/1GyZxCUs-QFonI8fRnNu51HHvKQmrOg4L/view?usp=sharing) to download the poem generator model. Place this in the following directory Chatbot/models/poem_generator/trained_models/
+
 #### Camera
 Please use this link [model](https://drive.google.com/file/d/1quNv1ZQC4ayqMbCPxgrhNRi9k4L4_T0G/view?usp=sharing) to download the necessary model required to run the chatbot. Place this in the following directory Camera_1/models/face_recognition/trained_models
 
